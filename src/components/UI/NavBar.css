@@ -1,0 +1,21 @@
+.navbar{
+    background: transparent !important;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.buscar{
+    margin-left: 50%;
+    background-color: lightgray !important;
+    border-radius: 1rem;
+}
+
+.nombre{
+    margin-right: 10px !important;
+    padding: 10px !important;
+    font-size: 80% !important;
+    font-Weight: 700 !important;
+    pointer-events: none;
+}

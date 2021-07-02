@@ -1,0 +1,23 @@
+.ingresar{
+    position: absolute;
+    left: 43%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.login {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.nombres::placeholder{
+    position: absolute;
+    left: 44%;
+}
+
+.banner{
+    margin-left: 15%;
+    -webkit-filter: brightness(90%);
+    filter: brightness(90%);
+}

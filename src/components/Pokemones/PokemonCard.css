@@ -1,0 +1,59 @@
+.card-info{
+    background: #1360B3;
+    background: -webkit-linear-gradient(to left, #FEFEFE, #1360B3);
+    background: linear-gradient(to left, #FEFEFE, #1360B3);
+    -webkit-filter: brightness(110%);
+    filter: brightness(105%);
+}
+
+.card-img-top{
+    border: 2px solid;
+    border-left-color: #958980;
+    border-right-color: #958980;
+    border-top-color: #110C0C;
+    border-bottom-color: #110C0C;
+    /* opacity: 90%; */
+    -moz-box-shadow:    inset 0 0 7px #000000;
+    -webkit-box-shadow: inset 0 0 7px #000000;
+    box-shadow:         inset 0 0 7px #000000;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+}
+
+.nombrePokemon{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    color: #271D18;
+    font-size: 18px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.imgtype{
+    max-width: 25px;
+    margin-left: 3px;
+}
+
+.tooltips{
+    display: inline-block !important;
+    position: relative !important;
+}
+
+.pokemon{
+    font-family: 'pokemon';
+    pointer-events: none;
+}
+
+.numero{
+    position: absolute;
+    bottom: 4%;
+    left: 60%;
+    color: #fffbfb;
+    font-weight: 600;
+    pointer-events: none;
+}
+
